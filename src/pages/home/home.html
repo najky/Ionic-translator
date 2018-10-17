@@ -15,7 +15,9 @@
     </ion-card-header>
   
     <ion-card-content>
-      <!-- TODO: Add translation result here! -->
+      {{userInput}}
+      <ion-icon *ngIf="userInput" name="arrow-round-forward"></ion-icon>
+      {{translationResult}}
     </ion-card-content>
   
   </ion-card>
